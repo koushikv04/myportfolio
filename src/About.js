@@ -6,10 +6,10 @@ class About extends React.Component
   render()
   {
     return(
-        <div className=" border border-primary">
+        <div>
           <div className="row">
             <div className="col">
-              <div className="container-fluid border border-primary">
+              <div className="container border border-primary">
                 <div className="Main">
                   <h1>
                     <center>5+</center>
@@ -21,7 +21,7 @@ class About extends React.Component
               </div>
             </div>
             <div className="col">
-            <div className="container-fluid border border-primary">
+            <div className="container border border-primary">
               <div className="Main">
                 <h1>
                   <center>5+</center>
@@ -35,7 +35,7 @@ class About extends React.Component
           </div>
           <div className="row">
           <div className="col">
-          <div className="container-fluid border border-primary">
+          <div className="container border border-primary">
             <div className="Main">
               <h1>
                 <center>5+</center>
@@ -47,7 +47,7 @@ class About extends React.Component
           </div>
             </div>
             <div className="col">
-            <div className="container-fluid border border-primary">
+            <div className="container border border-primary">
               <div className="Main">
                 <h1>
                   <center>5+</center>
