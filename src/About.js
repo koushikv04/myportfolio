@@ -8,56 +8,70 @@ class About extends React.Component
     return(
         <div>
           <div className="row">
-            <div className="col">
-              <div className="container border border-primary">
-                <div className="Main">
-                  <h1>
-                    <center>5+</center>
-                  </h1>
-                </div>
-                <div className="overlay">
-                  <p> 5 + years of experience as Software Developer</p>
-                </div>
+            <div className="column">
+              <div className="container">
+                <div class="flip-card">
+                  <div className="flip-card-inner">
+                    <div className="flip-card-front">
+                    <div id="title">
+                      <h3>5+</h3>
+                      </div>
+                    </div>
+                    <div className="flip-card-back">
+                      <p>5+ years experience as a Software Developer</p>
+                    </div>
+
+                  </div>
               </div>
             </div>
-            <div className="col">
-            <div className="container border border-primary">
-              <div className="Main">
-                <h1>
-                  <center>5+</center>
-                </h1>
-              </div>
-              <div className="overlay">
-                <p> 5 + years of experience as Software Developer</p>
+            </div>
+            <div className="column">
+              <div className="container">
+                <div class="flip-card">
+                  <div className="flip-card-inner">
+                    <div className="flip-card-front">
+                      <h3>5+</h3>
+                    </div>
+                    <div className="flip-card-back">
+                      <p>5+ years experience as a Software Developer</p>
+                    </div>
+
+                  </div>
               </div>
             </div>
             </div>
           </div>
           <div className="row">
-          <div className="col">
-          <div className="container border border-primary">
-            <div className="Main">
-              <h1>
-                <center>5+</center>
-              </h1>
-            </div>
-            <div className="overlay">
-              <p> 5 + years of experience as Software Developer</p>
+          <div className="column">
+            <div className="container">
+              <div class="flip-card">
+                <div className="flip-card-inner">
+                  <div className="flip-card-front">
+                    <h3>5+</h3>
+                  </div>
+                  <div className="flip-card-back">
+                    <p>5+ years experience as a Software Developer</p>
+                  </div>
+
+                </div>
             </div>
           </div>
+          </div>
+          <div className="column">
+            <div className="container">
+              <div class="flip-card">
+                <div className="flip-card-inner">
+                  <div className="flip-card-front">
+                    <h3>5+</h3>
+                  </div>
+                  <div className="flip-card-back">
+                    <p>5+ years experience as a Software Developer</p>
+                  </div>
+
+                </div>
             </div>
-            <div className="col">
-            <div className="container border border-primary">
-              <div className="Main">
-                <h1>
-                  <center>5+</center>
-                </h1>
-              </div>
-              <div className="overlay">
-                <p> 5 + years of experience as Software Developer</p>
-              </div>
-            </div>
-            </div>
+          </div>
+          </div>
           </div>
         </div>
     );

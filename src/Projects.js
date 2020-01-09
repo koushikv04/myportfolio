@@ -18,7 +18,6 @@ class Projects extends React.Component
     return(
       <HashRouter>
       <div>
-      <Jumbotron>
       <div className="container" id="content">
         <Route path="/vizier" component={Vizier}/>
         <Route path="/Medfit" component={Medfit}/>
@@ -31,53 +30,52 @@ class Projects extends React.Component
 
       </div>
 
-        <div className="container">
+        <div className="container" id="projectsContainer">
           <div className="row">
             <div className="column">
               <h1>
-                <NavLink  to="/vizier"><img src="../vizierlogo.png"/></NavLink>
+                <NavLink  to="/vizier"><img id="icons"src="../vizierlogo.png"/></NavLink>
               </h1>
             </div>
             <div className="column">
               <h1>
-              <NavLink  to="/Medfit"><img src="../MedfitIcon.png"/></NavLink>
+              <NavLink  to="/Medfit"><img id="icons"src="../MedfitIcon.png"/></NavLink>
               </h1>
             </div>
             <div className="column">
               <h1>
-              <NavLink  to="/Cherrypick"><img src="../cherrypickicon.png"/></NavLink>
+              <NavLink  to="/Cherrypick"><img id="icons"src="../cherrypickicon.png"/></NavLink>
               </h1>
             </div>
             <div className="column">
               <h1>
-              <NavLink  to="/Sih"><img src="../sihicon.jpg"/></NavLink>
+              <NavLink  to="/Sih"><img id="icons" src="../sihicon.jpg"/></NavLink>
               </h1>
             </div>
           </div>
           <div className="row">
             <div className="column">
               <h1>
-              <NavLink  to="/Umap"><img src="../UmapIcon.png"/></NavLink>
+              <NavLink  to="/Umap"><img id="icons" src="../UmapIcon.png"/></NavLink>
               </h1>
             </div>
             <div className="column">
               <h1>
-              <NavLink  to="/Dm"><img src="../DMIcon.png"/></NavLink>
+              <NavLink  to="/Dm"><img id="icons" src="../DMIcon.png"/></NavLink>
               </h1>
             </div>
             <div className="column">
               <h1>
-              <NavLink  to="/Bridge"><img src="../BridgeIcon.png"/></NavLink>
+              <NavLink  to="/Bridge"><img id="icons" src="../BridgeIcon.png"/></NavLink>
               </h1>
             </div>
             <div className="column">
               <h1>
-              <NavLink  to="/Radiotouch"><img src="../RTIcon.png"/></NavLink>
+              <NavLink  to="/Radiotouch"><img id="icons" src="../RTIcon.png"/></NavLink>
               </h1>
             </div>
           </div>
         </div>
-      </Jumbotron>
       </div>
       </HashRouter>
 
