@@ -7,7 +7,16 @@ class Medfit extends React.Component
   {
     return(
       <div>
-        <h1>Medfit project</h1>
+        <center><img src="MedfitIcon.png" id="icon"/></center><br/><br/>
+          <h2>Tools: Android,Java, Android studio</h2><br/>
+          <p><b>MedFit is a health application lending a helping hand to patients suffering from Cardiovascular diseases (CVD) to stay fit by offering exercises, log and track progress, provide feedback and connect with participants and trainers.</b>
+          <h2>Role:</h2>
+          <ul>
+            <li>Single-handedly developed the second version of the application </li>
+            <li>Integrated Shimmer(R) API to capture and transmit data while performing exercises</li>
+            <li>Contributed to two research papers and papers were accepted in MMHealth workshop and MobiHealth conference</li>
+          </ul>
+          </p>
       </div>
     );
   }

@@ -29,7 +29,6 @@ class Projects extends React.Component
         <Route path="/Radiotouch" component={Radiotouch}/>
 
       </div>
-
         <div className="container" id="projectsContainer">
           <div className="row justify-content-center">
             <div className="col-xs-6">

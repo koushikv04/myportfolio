@@ -71,6 +71,7 @@
 #content
 {
   margin-bottom:150px;
+  text-align: center;
 }
 
 .Main
@@ -81,6 +82,13 @@
 #vizierprototype
 {
   height: 300px;
+  width:200px;
+  align: middle;
+}
+
+#icon
+{
+  height: 200px;
   width:200px;
   align: middle;
 }
@@ -119,6 +127,10 @@
   height: 100%;
   width: 100%;
   backface-visibility: hidden;
+  margin:auto;
+  padding-top: 60px;
+
+
 }
 
 .flip-card-front
@@ -141,7 +153,30 @@
   width: 200px;
 }
 
-#leftcards
+.tab
 {
-  margin-left: 500px;
+  float:left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
+
+.tabcontent
+{
+  float:left;
+  padding:0px 12px;
+    border: 1px solid #ccc;
+    width:70%;
+    border-left:none;
+    height:300px;
+}
+
+#abouttext
+{
+  font-size: 50px;
+}
+i
+{
+  font-size:40px;
 }
