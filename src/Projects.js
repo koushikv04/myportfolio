@@ -16,9 +16,17 @@ class Projects extends React.Component
   render()
   {
     return(
-      <Jumbotron>
+      <Jumbotron id="mainout">
       <HashRouter>
-      <div className="container" id="content">
+
+      <div class="tab">
+      <button><NavLink  to="/vizier"><img  id="vizi"src="../vizierlogo.png"/></NavLink></button>
+      <button><NavLink  to="/Medfit"><img class="icons" src="../MedfitIcon.png"/></NavLink></button>
+      <button><NavLink  to="/Cherrypick"><img class="icons" src="../cherrypickicon.png"/></NavLink></button>
+      <button><NavLink  to="/Sih"><img class="icons" src="../sihicon.jpg"/></NavLink></button>
+
+      </div>
+      <div className="tabcontent">
         <Route path="/vizier" component={Vizier}/>
         <Route path="/Medfit" component={Medfit}/>
         <Route path="/Cherrypick" component={Cherrypick}/>
@@ -29,52 +37,13 @@ class Projects extends React.Component
         <Route path="/Radiotouch" component={Radiotouch}/>
 
       </div>
-        <div className="container" id="projectsContainer">
-          <div className="row justify-content-center">
-            <div className="col-xs-6">
-              <h1>
-                <NavLink  to="/vizier"><img id="icons"src="../vizierlogo.png"/></NavLink>
-              </h1>
-            </div>
-            <div className="col-xs-6">
-              <h1>
-              <NavLink  to="/Medfit"><img id="icons"src="../MedfitIcon.png"/></NavLink>
-              </h1>
-            </div>
-            <div className="col-xs-6">
-              <h1>
-              <NavLink  to="/Cherrypick"><img id="icons"src="../cherrypickicon.png"/></NavLink>
-              </h1>
-            </div>
-            <div className="col-xs-6">
-              <h1>
-              <NavLink  to="/Sih"><img id="icons" src="../sihicon.jpg"/></NavLink>
-              </h1>
-            </div>
-          <div class="w-100"></div>
+      <div class="tabright">
+      <button><NavLink  to="/Umap"><img class="icons" src="../UmapIcon.png"/></NavLink></button>
+      <button><NavLink  to="/Bridge"><img class="icons" src="../BridgeIcon.png"/></NavLink></button>
+      <button><NavLink  to="/Radiotouch"><img class="icons" src="../RTIcon.png"/></NavLink></button>
+      <button><NavLink  to="/Dm"><img class="icons" src="../DMIcon.png"/></NavLink></button>
+      </div>
 
-          <div className="col-xs-6">
-              <h1>
-              <NavLink  to="/Umap"><img id="icons" src="../UmapIcon.png"/></NavLink>
-              </h1>
-            </div>
-            <div className="col-xs-6">
-              <h1>
-              <NavLink  to="/Dm"><img id="icons" src="../DMIcon.png"/></NavLink>
-              </h1>
-            </div>
-            <div className="col-xs-6">
-              <h1>
-              <NavLink  to="/Bridge"><img id="icons" src="../BridgeIcon.png"/></NavLink>
-              </h1>
-            </div>
-            <div className="col-xs-6">
-              <h1>
-              <NavLink  to="/Radiotouch"><img id="icons" src="../RTIcon.png"/></NavLink>
-              </h1>
-            </div>
-          </div>
-        </div>
       </HashRouter>
       </Jumbotron>
 

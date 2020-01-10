@@ -52,12 +52,16 @@
   margin-bottom: 10px;
 }
 
-#icons
+.icons
 {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   border-radius: 20%;
 
+}
+.icons #vizi
+{
+  width:300px;
 }
 
 
@@ -88,9 +92,11 @@
 
 #icon
 {
-  height: 200px;
-  width:200px;
+  height: 125px;
+  width:125px;
   align: middle;
+  border-radius: 20%;
+
 }
 
 .flip-card
@@ -153,24 +159,6 @@
   width: 200px;
 }
 
-.tab
-{
-  float:left;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-  width: 30%;
-  height: 300px;
-}
-
-.tabcontent
-{
-  float:left;
-  padding:0px 12px;
-    border: 1px solid #ccc;
-    width:70%;
-    border-left:none;
-    height:300px;
-}
 
 #abouttext
 {
@@ -179,4 +167,68 @@
 i
 {
   font-size:40px;
+}
+
+.tab {
+  float: left;
+  width: 15%;
+  text-align: center;
+}
+
+.tabright {
+  float: right;
+  width: 15%;
+  text-align: center;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 12px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tabright button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 12px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  width: 70%;
+  height: 600px;
+  overflow-y: auto;
+}
+
+#mainout
+{
+  height:700px;
 }
