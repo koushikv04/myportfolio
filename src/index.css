@@ -1,16 +1,10 @@
 .main
 {
   height: 500px;
-
 }
-
-
-
 body
 {
   background-image: url("portfoliobg.png");
-
-
 }
 .bg-image
 {
@@ -78,19 +72,7 @@ body
   -webkit-tranisiton: .3s ease;
 }
 
-.container-fluid:hover .overlay
-{
-  transform: scale(1);
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-}
 
-.col .container
-{
-  height: 200px;
-  width:200px;
-  margin-bottom: 10px;
-}
 
 .icons
 {
@@ -105,23 +87,12 @@ body
 }
 
 
-.row
-{
-  display:flex;
-  flex-wrap: wrap;
-
-}
-
 #content
 {
   margin-bottom:150px;
   text-align: center;
 }
 
-.Main
-{
-  height:600px;
-}
 
 #vizierprototype
 {
@@ -192,12 +163,6 @@ body
 
 }
 
-#title
-{
-  height: 100px;
-  width: 200px;
-}
-
 
 #abouttext
 {
@@ -263,7 +228,7 @@ i
 
 #mainout
 {
-  height:700px;
+  height:500px;
   background-color: transparent;
   background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
 
@@ -273,17 +238,20 @@ i
 {
   padding:50px 0;
   background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
-
-
-
 }
 
 #contactsmain
 {
   background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
   color:white;
+  text-align: center;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
 
 }
+
+
 #rocketicon
 {
   font-size:45px;

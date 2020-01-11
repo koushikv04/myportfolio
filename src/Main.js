@@ -29,12 +29,8 @@ class Main extends React.Component
         </div>
       </div>
       <About/>
-      <div id="Projects">
       <Projects/>
-      </div>
-      <div id="Contact">
       <Contact/>
-      </div>
       </div>
     );
   }
