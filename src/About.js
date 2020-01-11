@@ -6,8 +6,7 @@ class About extends React.Component
   render()
   {
     return(
-      <Jumbotron>
-        <div className="container">
+        <Jumbotron id="aboutcontainer">
           <div className="row justify-content-center">
             <div className="col-xs-6">
                 <div className="flip-card">
@@ -63,7 +62,6 @@ class About extends React.Component
             </div>
           </div>
 
-        </div>
         </Jumbotron>
     );
   }

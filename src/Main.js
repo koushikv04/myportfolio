@@ -14,19 +14,20 @@ class Main extends React.Component
       <div>
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand><h1>Kouv</h1></Navbar.Brand>
-        <Nav className="justify-content-end">
-          <Nav.Link href="#About">About</Nav.Link>
-          <Nav.Link href="#Projects">Projects</Nav.Link>
-          <Nav.Link href="#Contact">Contact</Nav.Link>
-        </Nav>
+          <Nav className="justify-content-end">
+            <Nav.Link href="#About">About</Nav.Link>
+            <Nav.Link href="#Projects">Projects</Nav.Link>
+            <Nav.Link href="#Contact">Contact</Nav.Link>
+          </Nav>
       </Navbar>
-      <Jumbotron className="main">
+      <div className="main">
+      <div className="bg-image"></div>
         <div class="bg-text">
           <img id="photo" src="../Kouv.jpg"/>
           <h1>Hello, I am Kouv</h1>
           <p>Koushik Venkataraman, the Software Developer</p>
         </div>
-      </Jumbotron>
+      </div>
       <About/>
       <div id="Projects">
       <Projects/>

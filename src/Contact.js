@@ -6,11 +6,11 @@ class Contact extends React.Component
   render()
   {
     return(
-      <div>
-      <Jumbotron>
-        <p> Contacts </p>
+      <Jumbotron id="contactsmain">
+
+        <p><center><i id="contactsicons" class="fa fa-envelope"><br/><a href="mailto:koushikv@outlook.com">Let me send an email to this guy </a> </i><br/> <i id="contactsicons" class='fa fa-linkedin-square'><br/><a href="https://www.linkedin.com/in/kaushikvenkataraman">Checkout Profile</a></i></center></p>
+
       </Jumbotron>
-      </div>
     );
   }
 }

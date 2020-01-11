@@ -1,25 +1,65 @@
 .main
 {
-  height: 600px;
+  height: 500px;
 
 }
+
+
+
+body
+{
+  background-image: url("portfoliobg.png");
+
+
+}
+.bg-image
+{
+  padding:0;
+  left:0;
+}
+
+@@keyframes fadeIn {
+
+  0%
+  {
+    opacity: 0;
+  }
+  50%
+  {
+    opacity: 0.5;
+  }
+  100%
+{
+  opacity: 1;
+}
+
+}
+
 #photo
 {
   width: 100px;
   border-radius: 50%;
+  animation:fadeIn 2s ease-in forwards
+
 }
-.bg-text
-{
-  position: absolute;
-  top:30%;
-  left: 20%;
-  background-color: rgba(0, 0, 0, 0.5);
+
+
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
-  width: 60%;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
   padding: 20px;
   text-align: center;
 }
+
 
 .overlay
 {
@@ -104,7 +144,6 @@
   background-color: transparent;
   width:300px;
   height:200px;
-  border:5px solid #f1f1f1;
   text-align:center;
   border-radius: 5%;
 
@@ -118,7 +157,7 @@
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  border:5px solid red;
+  border:4px solid red;
   border-radius: 5%;
 }
 
@@ -141,7 +180,7 @@
 
 .flip-card-front
 {
-  background-color: #bbb;
+  background-color: white;
   color:black;
 }
 
@@ -164,6 +203,7 @@
 {
   font-size: 50px;
 }
+
 i
 {
   font-size:40px;
@@ -177,7 +217,7 @@ i
 
 .tabright {
   float: right;
-  width: 15%;
+  width: 10%;
   text-align: center;
 }
 
@@ -209,26 +249,44 @@ i
   transition: 0.3s;
   font-size: 17px;
 }
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
-}
 
-/* Create an active/current "tab button" class */
-.tab button.active {
-  background-color: #ccc;
-}
 
 /* Style the tab content */
 .tabcontent {
   float: left;
   padding: 0px 12px;
-  width: 70%;
+  width: 75%;
   height: 600px;
   overflow-y: auto;
+  color: white;
 }
 
 #mainout
 {
   height:700px;
+  background-color: transparent;
+  background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+
+}
+
+#aboutcontainer
+{
+  padding:50px 0;
+  background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+
+
+
+}
+
+#contactsmain
+{
+  background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+  color:white;
+
+}
+
+#contactsicons
+{
+  font-size:50px;
+  padding-left: 10px;
 }
