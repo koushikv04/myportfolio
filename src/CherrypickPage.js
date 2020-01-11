@@ -7,7 +7,7 @@ class Cherrypick extends React.Component
   {
     return(
       <div>
-        <center><img src="Cherrypickicon.png" id="icon"/></center><br/><br/>
+        <center><img src="cherrypickicon.png" id="icon"/></center><br/><br/>
           <h2>Tools: iOS,Objective-C, Xcode</h2><br/>
           <p><b>A Digital enterprise mobile application which provides a single point of contact for customers to create work groups, manage tasks, share messages, documents, notes, create events and much more.</b>
           <h2>Role:</h2>
