@@ -23,7 +23,7 @@ class Main extends React.Component
       <div className="main">
       <div className="bg-image"></div>
         <div class="bg-text">
-          <img id="photo" src="../Kouv.jpg"/>
+          <img id="photo" src="Kouv.jpg"/>
           <h1>Hello, I am Kouv</h1>
           <p>Koushik Venkataraman, the Software Developer</p>
         </div>

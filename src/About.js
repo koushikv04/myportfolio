@@ -39,7 +39,7 @@ class About extends React.Component
                   <div className="flip-card-inner ">
                     <div className="flip-card-front">
                     <h2>Exploring</h2>
-                    <i class='fas fa-rocket'></i>
+                    <i class='fa fa-rocket'></i>
 
                     </div>
                     <div className="flip-card-back">
