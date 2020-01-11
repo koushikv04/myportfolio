@@ -8,7 +8,7 @@ class Medfit extends React.Component
     return(
       <div>
         <center><img src="MedfitIcon.png" id="icon"/></center><br/><br/>
-          <h2>Tools: Android,Java, Android studio</h2><br/>
+          <center><h2>Tools: Android,Java, Android studio</h2></center><br/>
           <p><b>MedFit is a health application lending a helping hand to patients suffering from Cardiovascular diseases (CVD) to stay fit by offering exercises, log and track progress, provide feedback and connect with participants and trainers.</b>
           <h2>Role:</h2>
           <ul>

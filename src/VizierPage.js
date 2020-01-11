@@ -8,7 +8,8 @@ class Vizier extends React.Component
     return(
       <div>
         <center><img src="vizierprototype.gif" id="vizierprototype"/></center><br/><br/>
-          <h2>Tools: RaspberryPi,javascript, Python, NodeJS, MongoDB, Swagger,Linux,Docker,IoT</h2><br/><br/>
+        <center><img src="vizierlogo.png" id="vizi"/></center><br/><br/>
+          <center><h2>Tools: RaspberryPi,javascript, Python, NodeJS, MongoDB, Swagger,Linux,Docker,IoT</h2></center><br/><br/>
           <p>Vizier is a smart home IoT based system designed to help elderly to lead a active social,mental and physical life.It includes:
           <ul>
             <li>Raspberry Pi based Communication system</li>

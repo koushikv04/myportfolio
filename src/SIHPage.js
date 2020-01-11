@@ -8,7 +8,11 @@ class Sih extends React.Component
     return(
       <div>
         <center><img src="sihicon.jpg" id="icon"/></center><br/><br/>
-          <h2>Tools: iOS,Objective-C, Xcode</h2><br/>
+        <center>
+          <h1>Aspire Step into Health
+          </h1>
+        </center>
+          <center><h2>Tools: iOS,Objective-C, Xcode</h2></center><br/>
           <p><b>Aspire SIH is an iPhone application that is designed to engage the people of Qatar in a self-managed lifelong health program based
 on tracking of steps and input of physical activity by users.</b>
           <h2>Role:</h2>

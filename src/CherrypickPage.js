@@ -8,7 +8,11 @@ class Cherrypick extends React.Component
     return(
       <div>
         <center><img src="cherrypickicon.png" id="icon"/></center><br/><br/>
-          <h2>Tools: iOS,Objective-C, Xcode</h2><br/>
+        <center>
+          <h1>Cherrypickbox
+          </h1>
+        </center>
+          <center><h2>Tools: iOS,Objective-C, Xcode</h2></center><br/>
           <p><b>A Digital enterprise mobile application which provides a single point of contact for customers to create work groups, manage tasks, share messages, documents, notes, create events and much more.</b>
           <h2>Role:</h2>
           <ul>

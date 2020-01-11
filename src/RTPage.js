@@ -8,7 +8,8 @@ class Radiotouch extends React.Component
     return(
       <div>
         <center><img src="RTIcon.png" id="icon"/></center><br/><br/>
-          <h2>Tools: iOS,Objective-C, Xcode</h2><br/>
+          <center><h1> Radiotouch </h1></center>
+          <center><h2>Tools: iOS,Objective-C, Xcode</h2></center><br/>
           <p><b>Radiotouch is an iPad application, which can display high resolution X-Rays wherein expert physicians can review/share/ comment on them.</b>
           <h2>Role:</h2>
           <ul>

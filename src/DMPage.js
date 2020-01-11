@@ -8,7 +8,11 @@ class Dm extends React.Component
     return(
       <div>
         <center><img src="DMIcon.png" id="icon"/></center><br/><br/>
-          <h2>Tools: iOS,Objective-C, Xcode</h2><br/>
+          <center>
+            <h1>Disease Specific Care Management
+            </h1>
+          </center>
+          <center><h2>Tools: iOS,Objective-C, Xcode</h2></center><br/>
           <p><b>An iPhone Application developed to help users manage their scheduled medical appointments and insurance companies to keep track of their customer’s health with input from physicians and laboratory results updated in the application.</b>
           <h2>Role:</h2>
           <ul>
