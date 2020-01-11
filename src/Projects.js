@@ -16,7 +16,7 @@ class Projects extends React.Component
   render()
   {
     return(
-      <Jumbotron id="mainout">
+      <div id="mainout">
       <HashRouter>
 
       <div class="tab">
@@ -27,7 +27,7 @@ class Projects extends React.Component
 
       </div>
       <div className="tabcontent">
-        <Route path="/vizier" component={Vizier}/>
+        <Route exact path="/vizier" component={Vizier}/>
         <Route path="/Medfit" component={Medfit}/>
         <Route path="/Cherrypick" component={Cherrypick}/>
         <Route path="/Sih" component={Sih}/>
@@ -45,7 +45,7 @@ class Projects extends React.Component
       </div>
 
       </HashRouter>
-      </Jumbotron>
+      </div>
 
     );
   }

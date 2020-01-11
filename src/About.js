@@ -6,13 +6,13 @@ class About extends React.Component
   render()
   {
     return(
-        <Jumbotron id="aboutcontainer">
+        <div id="aboutcontainer">
           <div className="row justify-content-center">
             <div className="col-xs-6">
                 <div className="flip-card">
                   <div className="flip-card-inner ">
                     <div className="flip-card-front">
-                      <h4>5 years and counting...</h4>
+                      <h2>5 years and counting...</h2>
                     </div>
                     <div className="flip-card-back">
                       <p>5+ years experience as a Software Developer</p>
@@ -24,7 +24,7 @@ class About extends React.Component
                 <div className="flip-card ">
                   <div className="flip-card-inner ">
                     <div className="flip-card-front">
-                    <h3>Mobile,Web and More...</h3>
+                    <h2>Mobile,Web and More...</h2>
                     </div>
                     <div className="flip-card-back">
                       <p>Developed variety of Mobile, Web and Software applications from Healthcare to Enterprise </p>
@@ -52,17 +52,17 @@ class About extends React.Component
                 <div className="flip-card ">
                   <div className="flip-card-inner ">
                     <div className="flip-card-front">
-                    <h4>Methods followed</h4>
+                    <h3>varied experienced</h3>
                     </div>
                     <div className="flip-card-back">
-                      <p>Implemented projects through Agile and waterfall methodologies</p>
+                      <p>Experience working in industry, startup and research centre, where to next?</p>
                     </div>
                   </div>
               </div>
             </div>
           </div>
 
-        </Jumbotron>
+        </div>
     );
   }
 }
