@@ -26,7 +26,7 @@ class Projects extends React.Component
       <button><NavLink  to="/Sih"><img class="icons" src="sihicon.jpg"/></NavLink></button>
       </div>
       <div className="tabcontent">
-        <Route exact path="/vizier" component={Vizier}/>
+        <Route path="/vizier" component={Vizier}/>
         <Route path="/Medfit" component={Medfit}/>
         <Route path="/Cherrypick" component={Cherrypick}/>
         <Route path="/Sih" component={Sih}/>

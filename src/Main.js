@@ -28,9 +28,15 @@ class Main extends React.Component
           <p>Koushik Venkataraman, the Software Developer</p>
         </div>
       </div>
+      <div id="About">
       <About/>
+      </div>
+      <div id="Projects">
       <Projects/>
+      </div>
+      <div id="Contact">
       <Contact/>
+      </div>
       </div>
     );
   }
