@@ -137,6 +137,10 @@ body
   transform: rotateY(180deg);
 }
 
+.flip-card:active .flip-card-inner
+{
+  transform: rotateY(180deg);
+}
 .flip-card-front,.flip-card-back
 {
   position: absolute;
@@ -178,12 +182,20 @@ i
   float: left;
   width: 15%;
   text-align: center;
+
 }
 
 .tabright {
+
   float: right;
-  width: 10%;
+  width: 12%;
   text-align: center;
+}
+
+.sidebar
+{
+  display:none;
+
 }
 
 /* Style the buttons inside the tab */
@@ -218,13 +230,14 @@ i
 
 /* Style the tab content */
 .tabcontent {
-  float: left;
   padding: 0px 12px;
-  width: 75%;
-  height: 500px;
   overflow-y: auto;
   color: white;
+  height: 500px;
+  width:70%;
 }
+
+
 
 #mainout
 {
@@ -259,4 +272,36 @@ i
 #contactsicons
 {
   font-size:50px;
+}
+
+@media screen and (max-width: 735px) {
+
+  .tab
+  {
+    display: none;
+  }
+  .tabright
+  {
+    display: none;
+  }
+  .sidebar
+  {
+    display: block;
+    overflow:auto;
+    white-space: nowrap;
+    width: 100%;
+
+  }
+  .tabcontent {
+    padding-top:20px;
+    overflow-y: auto;
+    color: white;
+    height: 400px;
+    width:100%;
+  }
+  #contactsicons
+  {
+    font-size:30px;
+  }
+
 }
