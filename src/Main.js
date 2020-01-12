@@ -20,8 +20,7 @@ class Main extends React.Component
             <Nav.Link href="#Contact">Contact</Nav.Link>
           </Nav>
       </Navbar>
-      <div className="main">
-      <div className="bg-image"></div>
+      <div id="main">
         <div class="bg-text">
           <img id="photo" src="Kouv.jpg"/>
           <h1>Hello, I am Kouv</h1>
