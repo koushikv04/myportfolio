@@ -24,7 +24,6 @@ class Projects extends React.Component
       <button><NavLink  to="/Medfit"><img class="icons" src="MedfitIcon.png"/></NavLink></button>
       <button><NavLink  to="/Cherrypick"><img class="icons" src="cherrypickicon.png"/></NavLink></button>
       <button><NavLink  to="/Sih"><img class="icons" src="sihicon.jpg"/></NavLink></button>
-
       </div>
       <div className="tabcontent">
         <Route exact path="/vizier" component={Vizier}/>
@@ -37,6 +36,7 @@ class Projects extends React.Component
         <Route path="/Radiotouch" component={Radiotouch}/>
 
       </div>
+
       <div class="tabright">
       <button><NavLink  to="/Umap"><img class="icons" src="UmapIcon.png"/></NavLink></button>
       <button><NavLink  to="/Bridge"><img class="icons" src="BridgeIcon.png"/></NavLink></button>
