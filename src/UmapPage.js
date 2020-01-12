@@ -7,20 +7,24 @@ class Umap extends React.Component
   {
     return(
       <div>
-        <center><img src="UmapIcon.png" id="icon"/></center><br/><br/>
+        <center><img src="UmapIcon.png" id="icon"/></center><br/>
         <center>
           <h1>Unified Mobility Platform
           </h1>
         </center>
           <center><h2>Tools: iOS,Objective-C, Xcode</h2></center><br/>
-          <p><b>An iPad Application provides information on current and upcoming conferences and facilitates delegates to chat, make seat selection and accommodation arrangements from iPad.</b>
-          <h2>Role:</h2>
+          <p>An iPad Application provides information on current and upcoming conferences and facilitates delegates to chat, make seat selection and accommodation arrangements.
+          <br/>
+          <h3>Role:</h3>
           <ul>
-            <li>Stabilised the code through bug fixes </li>
-            <li>Reconstructed the complete code to coding standards and performed memory optimisation</li>
-            <li>Made Enhancements such as
-- Displayroutesonmap
-- SynchroniseeventstoiPadcalendar </li>
+            <li>Made Enhancements such as:</li>
+            <ul>
+              <li>Added new UI components</li>
+              <li>Encompassed token-server authentication </li>
+              <li>Encompassed token-server authentication </li>
+              <li>Mobile Device Management(MDM)</li>
+            </ul>
+            <li>A complete application paved the way to be bought by one of the leading Network Service Provider  </li>
           </ul>
           </p>
       </div>

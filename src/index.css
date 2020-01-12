@@ -288,7 +288,7 @@ i
   .sidebar
   {
     display: block;
-    overflow:auto;
+    overflow-x:auto;
     white-space: nowrap;
     width: 100%;
 

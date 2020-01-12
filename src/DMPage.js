@@ -7,21 +7,24 @@ class Dm extends React.Component
   {
     return(
       <div>
-        <center><img src="DMIcon.png" id="icon"/></center><br/><br/>
+        <center><img src="DMIcon.png" id="icon"/></center><br/>
           <center>
             <h1>Disease Specific Care Management
             </h1>
           </center>
           <center><h2>Tools: iOS,Objective-C, Xcode</h2></center><br/>
-          <p><b>An iPhone Application developed to help users manage their scheduled medical appointments and insurance companies to keep track of their customer’s health with input from physicians and laboratory results updated in the application.</b>
-          <h2>Role:</h2>
+          <p>An iPhone Application developed to help users manage their scheduled medical appointments and insurance companies to keep track of their customer’s health with input from physicians and laboratory results updated in the application.
+          <br/>
+          <h3>Role:</h3>
           <ul>
-            <li>Initiated the idea to develop the application on discussion with the business head in Tech Mahindra </li>
-            <li>Spearheaded the entire application starting from design to development of the application and testing.</li>
-            <li>Incorporated features such as
-- Synchronise events to iPhone calendar
-- Apple Push Notification Service(APNS)
-- Show routes on map from current location</li>
+            <li><b>Initiated the idea</b> to develop the application on discussion with the business head in Tech Mahindra </li>
+            <li><b>Spearheaded the entire application</b> starting from design to development of the application and testing.</li>
+            <li>Incorporated features such as:</li>
+            <ul>
+              <li>Synchronise events to iPhone calendar</li>
+              <li>Apple Push Notification Service(APNS)</li>
+              <li>Show routes on map from current location</li>
+            </ul> 
           </ul>
           </p>
       </div>
