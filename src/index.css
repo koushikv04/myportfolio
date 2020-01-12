@@ -82,9 +82,9 @@ body
   border-radius: 20%;
 
 }
-.icons #vizi
+ #vizi
 {
-  width:300px;
+  width:20px;
 }
 
 
@@ -183,6 +183,7 @@ i
   float: left;
   width: 15%;
   text-align: center;
+  padding-left: 40px;
 
 }
 

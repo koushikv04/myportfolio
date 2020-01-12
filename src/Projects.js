@@ -20,7 +20,7 @@ class Projects extends React.Component
       <HashRouter>
 
       <div className="tab">
-      <button><NavLink  to="/vizier"><img  id="vizi"src="vizierlogo.png"/></NavLink></button>
+      <button><NavLink  to="/vizier"><img  id="vizier"src="viziericon.png"/></NavLink></button>
       <button><NavLink  to="/Medfit"><img class="icons" src="MedfitIcon.png"/></NavLink></button>
       <button><NavLink  to="/Cherrypick"><img class="icons" src="cherrypickicon.png"/></NavLink></button>
       <button><NavLink  to="/Sih"><img class="icons" src="sihicon.jpg"/></NavLink></button>
