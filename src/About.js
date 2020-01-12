@@ -52,7 +52,7 @@ class About extends React.Component
                 <div className="flip-card ">
                   <div className="flip-card-inner ">
                     <div className="flip-card-front">
-                    <h3>varied experienced</h3>
+                    <h3>varied experience</h3>
                     </div>
                     <div className="flip-card-back">
                       <p>Experience working in industry, startup and research centre, where to next?</p>

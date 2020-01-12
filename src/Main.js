@@ -25,7 +25,7 @@ class Main extends React.Component
         <div class="bg-text">
           <img id="photo" src="Kouv.jpg"/>
           <h1>Hello, I am Kouv</h1>
-          <p>Koushik Venkataraman, the Software Developer</p>
+          <h3>Koushik Venkataraman, the Software Developer</h3>
         </div>
       </div>
       <div id="About">
