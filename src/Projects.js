@@ -27,13 +27,13 @@ class Projects extends React.Component
       </div>
       <div class="sidebar">
       <button><NavLink  to="/vizier"><img  id="vizi"src="vizierlogo.png"/></NavLink></button>
-      <button><NavLink  to="/Medfit"><img class="icons" src="MedfitIcon.png"/></NavLink></button>
-      <button><NavLink  to="/Cherrypick"><img class="icons" src="cherrypickicon.png"/></NavLink></button>
-      <button><NavLink  to="/Sih"><img class="icons" src="sihicon.jpg"/></NavLink></button>
-      <button><NavLink  to="/Umap"><img class="icons" src="UmapIcon.png"/></NavLink></button>
-      <button><NavLink  to="/Bridge"><img class="icons" src="BridgeIcon.png"/></NavLink></button>
-      <button><NavLink  to="/Radiotouch"><img class="icons" src="RTIcon.png"/></NavLink></button>
-      <button><NavLink  to="/Dm"><img class="icons" src="DMIcon.png"/></NavLink></button>
+      <NavLink  to="/Medfit"><img class="icons" src="MedfitIcon.png"/></NavLink>
+      <NavLink  to="/Cherrypick"><img class="icons" src="cherrypickicon.png"/></NavLink>
+      <NavLink  to="/Sih"><img class="icons" src="sihicon.jpg"/></NavLink>
+      <NavLink  to="/Umap"><img class="icons" src="UmapIcon.png"/></NavLink>
+      <NavLink  to="/Bridge"><img class="icons" src="BridgeIcon.png"/></NavLink>
+      <NavLink  to="/Radiotouch"><img class="icons" src="RTIcon.png"/></NavLink>
+      <NavLink  to="/Dm"><img class="icons" src="DMIcon.png"/></NavLink>
       </div>
       <div className="tabright">
       <button><NavLink  to="/Umap"><img class="icons" src="UmapIcon.png"/></NavLink></button>

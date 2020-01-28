@@ -288,10 +288,10 @@ i
   }
   .sidebar
   {
-    display: block;
-    overflow-x:auto;
+    display: inline-block;
+    overflow:auto;
     white-space: nowrap;
-    width: 100%;
+    width:100%;
 
   }
   .tabcontent {
@@ -305,6 +305,27 @@ i
   {
     font-size:30px;
   }
+  .icons
+  {
+    padding:0 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 25%;
+  }
+  .sidebar button {
+    height: 75px;
+    width:75px;
+    text-align: center;
+  }
+  #vizi {
+    height:50px;
+    width:50px;
+  }
+  #icon {
+    height:75px;
+    width:75px;
+  }
+
 
 
 
