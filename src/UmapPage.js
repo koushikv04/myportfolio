@@ -1,5 +1,4 @@
 import React from 'react';
-import Jumbotron from 'react-bootstrap/Jumbotron'
 
 class Umap extends React.Component
 {
@@ -7,7 +6,7 @@ class Umap extends React.Component
   {
     return(
       <div>
-        <center><img src="UmapIcon.png" id="icon"/></center><br/>
+        <center><img alt="Umap" src="UmapIcon.png" id="icon"/></center><br/>
         <center>
           <h1>Unified Mobility Platform
           </h1>

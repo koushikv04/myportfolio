@@ -1,5 +1,4 @@
 import React from 'react';
-import Jumbotron from 'react-bootstrap/Jumbotron'
 
 class Vizier extends React.Component
 {
@@ -7,8 +6,8 @@ class Vizier extends React.Component
   {
     return(
       <div>
-        <center><img src="vizierprototype.gif" id="vizierprototype"/></center><br/>
-        <center><img src="vizierlogo.png" id="vizi"/></center><br/>
+        <center><img alt="vizierprototype"src="vizierprototype.gif" id="vizierprototype"/></center><br/>
+        <center><img alt="vizierlogo" src="vizierlogo.png" id="vizi"/></center><br/>
           <center><h2>Tools: RaspberryPi,Javascript, Python, NodeJS, MongoDB, Swagger,Linux,Docker,IoT</h2></center><br/>
           <p>Vizier is a smart home IoT based system designed to help elderly to lead a active social,mental and physical life.It includes:
           <ul>

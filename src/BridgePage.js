@@ -1,5 +1,4 @@
 import React from 'react';
-import Jumbotron from 'react-bootstrap/Jumbotron'
 
 class Bridge extends React.Component
 {
@@ -7,9 +6,9 @@ class Bridge extends React.Component
   {
     return(
       <div>
-        <center><img src="BridgeIcon.png" id="icon"/></center><br/>
+        <center><img alt="Bridge" src="BridgeIcon.png" id="icon"/></center><br/>
         <center>
-          <h1>Conference Management System
+          <h1><a href="https://itunes.apple.com/nz/app/bridge-aspire-conference-management/id737471927?mt=8" target="_blank" rel="noopener noreferrer">Conference Management System</a>
           </h1>
         </center>
           <center><h2>Tools: iOS,Objective-C, Xcode</h2></center><br/>

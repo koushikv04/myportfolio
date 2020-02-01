@@ -1,5 +1,4 @@
 import React from 'react';
-import Jumbotron from 'react-bootstrap/Jumbotron'
 
 class Cherrypick extends React.Component
 {
@@ -7,7 +6,7 @@ class Cherrypick extends React.Component
   {
     return(
       <div>
-        <center><img src="cherrypickicon.png" id="icon"/></center><br/>
+        <center><img alt="cherrypick" src="cherrypickicon.png" id="icon"/></center><br/>
         <center>
           <h1>Cherrypickbox
           </h1>

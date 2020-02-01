@@ -1,5 +1,4 @@
 import React from 'react';
-import Jumbotron from 'react-bootstrap/Jumbotron'
 import Vizier from "./VizierPage"
 import Radiotouch from "./RTPage"
 import Cherrypick from "./CherrypickPage"
@@ -20,26 +19,26 @@ class Projects extends React.Component
       <HashRouter>
 
       <div className="tab">
-      <button><NavLink  to="/vizier"><img  id="vizier"src="viziericon.png"/></NavLink></button>
-      <button><NavLink  to="/Medfit"><img class="icons" src="MedfitIcon.png"/></NavLink></button>
-      <button><NavLink  to="/Cherrypick"><img class="icons" src="cherrypickicon.png"/></NavLink></button>
-      <button><NavLink  to="/Sih"><img class="icons" src="sihicon.jpg"/></NavLink></button>
+      <button><NavLink  to="/vizier"><img  alt="vizier" id="vizier"src="viziericon.png"/></NavLink></button>
+      <button><NavLink  to="/Medfit"><img alt="Medfit" class="icons" src="MedfitIcon.png"/></NavLink></button>
+      <button><NavLink  to="/Cherrypick"><img alt="cherrypick" class="icons" src="cherrypickicon.png"/></NavLink></button>
+      <button><NavLink  to="/Sih"><img alt="sih" class="icons" src="sihicon.jpg"/></NavLink></button>
       </div>
       <div class="sidebar">
-      <button><NavLink  to="/vizier"><img  id="vizi"src="vizierlogo.png"/></NavLink></button>
-      <NavLink  to="/Medfit"><img class="icons" src="MedfitIcon.png"/></NavLink>
-      <NavLink  to="/Cherrypick"><img class="icons" src="cherrypickicon.png"/></NavLink>
-      <NavLink  to="/Sih"><img class="icons" src="sihicon.jpg"/></NavLink>
-      <NavLink  to="/Umap"><img class="icons" src="UmapIcon.png"/></NavLink>
-      <NavLink  to="/Bridge"><img class="icons" src="BridgeIcon.png"/></NavLink>
-      <NavLink  to="/Radiotouch"><img class="icons" src="RTIcon.png"/></NavLink>
-      <NavLink  to="/Dm"><img class="icons" src="DMIcon.png"/></NavLink>
+      <button><NavLink  to="/vizier"><img  alt="vizierlogo" id="vizi"src="vizierlogo.png"/></NavLink></button>
+      <NavLink  to="/Medfit"><img alt="medfiticon" class="icons" src="MedfitIcon.png"/></NavLink>
+      <NavLink  to="/Cherrypick"><img alt="cherrypickicon" class="icons" src="cherrypickicon.png"/></NavLink>
+      <NavLink  to="/Sih"><img alt="sihicon" class="icons" src="sihicon.jpg"/></NavLink>
+      <NavLink  to="/Umap"><img alt="umpaicon" class="icons" src="UmapIcon.png"/></NavLink>
+      <NavLink  to="/Bridge"><img alt="bridgeicon" class="icons" src="BridgeIcon.png"/></NavLink>
+      <NavLink  to="/Radiotouch"><img alt="rticon" class="icons" src="RTIcon.png"/></NavLink>
+      <NavLink  to="/Dm"><img alt="dmicon" class="icons" src="DMIcon.png"/></NavLink>
       </div>
       <div className="tabright">
-      <button><NavLink  to="/Umap"><img class="icons" src="UmapIcon.png"/></NavLink></button>
-      <button><NavLink  to="/Bridge"><img class="icons" src="BridgeIcon.png"/></NavLink></button>
-      <button><NavLink  to="/Radiotouch"><img class="icons" src="RTIcon.png"/></NavLink></button>
-      <button><NavLink  to="/Dm"><img class="icons" src="DMIcon.png"/></NavLink></button>
+      <button><NavLink  to="/Umap"><img alt="umapicon" class="icons" src="UmapIcon.png"/></NavLink></button>
+      <button><NavLink  to="/Bridge"><img alt="bridgeicon" class="icons" src="BridgeIcon.png"/></NavLink></button>
+      <button><NavLink  to="/Radiotouch"><img alt="rticon" class="icons" src="RTIcon.png"/></NavLink></button>
+      <button><NavLink  to="/Dm"><img alt="dmicon" class="icons" src="DMIcon.png"/></NavLink></button>
       </div>
       <div className="tabcontent">
         <Route path="/vizier" component={Vizier}/>

@@ -1,5 +1,4 @@
 import React from 'react';
-import Jumbotron from 'react-bootstrap/Jumbotron'
 
 class Contact extends React.Component
 {
@@ -17,7 +16,7 @@ class Contact extends React.Component
           <div class="col">
             <i id="contactsicons" class='fa fa-linkedin-square'>
             <br/>
-            <a href="https://www.linkedin.com/in/kaushikvenkataraman" target="_blank">
+            <a href="https://www.linkedin.com/in/kaushikvenkataraman" target="_blank" rel="noopener noreferrer">
             <i class="fa fa-binoculars"/> Profile
         </a>
       </i>

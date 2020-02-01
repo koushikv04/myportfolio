@@ -1,5 +1,4 @@
 import React from 'react';
-import Jumbotron from 'react-bootstrap/Jumbotron'
 
 class Dm extends React.Component
 {
@@ -7,7 +6,7 @@ class Dm extends React.Component
   {
     return(
       <div>
-        <center><img src="DMIcon.png" id="icon"/></center><br/>
+        <center><img alt="DM" src="DMIcon.png" id="icon"/></center><br/>
           <center>
             <h1>Disease Specific Care Management
             </h1>
@@ -24,7 +23,7 @@ class Dm extends React.Component
               <li>Synchronise events to iPhone calendar</li>
               <li>Apple Push Notification Service(APNS)</li>
               <li>Show routes on map from current location</li>
-            </ul> 
+            </ul>
           </ul>
           </p>
       </div>

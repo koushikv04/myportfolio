@@ -1,5 +1,4 @@
 import React from 'react';
-import Jumbotron from 'react-bootstrap/Jumbotron'
 
 class Radiotouch extends React.Component
 {
@@ -7,7 +6,7 @@ class Radiotouch extends React.Component
   {
     return(
       <div>
-        <center><img src="RTIcon.png" id="icon"/></center><br/>
+        <center><img alt="Radiotouch" src="RTIcon.png" id="icon"/></center><br/>
           <center><h1> Radiotouch </h1></center>
           <center><h2>Tools: iOS,Objective-C, Xcode</h2></center><br/>
           <p>Radiotouch is an iPad application, which can display high resolution X-Rays wherein expert physicians can review/share/ comment on them.

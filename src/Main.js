@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Jumbotron from 'react-bootstrap/Jumbotron'
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
@@ -22,7 +21,7 @@ class Main extends React.Component
       </Navbar>
       <div id="main">
         <div class="bg-text">
-          <img id="photo" src="Kouv.jpg"/>
+          <img alt="myphoto" id="photo" src="Kouv.jpg"/>
           <h1>Hello, I am Kouv</h1>
           <h3>Koushik Venkataraman, the Software Developer</h3>
         </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import Jumbotron from 'react-bootstrap/Jumbotron'
 
 class Sih extends React.Component
 {
@@ -7,9 +6,9 @@ class Sih extends React.Component
   {
     return(
       <div>
-        <center><img src="sihicon.jpg" id="icon"/></center><br/>
+        <center><img alt="step into health" src="sihicon.jpg" id="icon"/></center><br/>
         <center>
-          <h1>Aspire Step into Health
+          <h1><a href="https://itunes.apple.com/nz/app/step-into-health/id741316085?mt=8" rel="noopener noreferrer" target="_blank">Aspire Step into Health</a>
           </h1>
         </center>
           <center><h2>Tools: iOS,Objective-C, Xcode</h2></center><br/>
