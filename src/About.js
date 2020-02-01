@@ -14,7 +14,7 @@ class About extends React.Component
                       <h2>5 years and counting...</h2>
                     </div>
                     <div className="flip-card-back">
-                      <p>5+ years experience as a Software Developer</p>
+                      <p>5+ years Experience as a Software Developer</p>
                     </div>
                   </div>
               </div>
@@ -42,7 +42,7 @@ class About extends React.Component
 
                     </div>
                     <div className="flip-card-back">
-                      <p>explored new fields such as Iot,3D-printing,Machine learning</p>
+                      <p>Explored new fields such as Iot,3D-printing,Machine learning</p>
                     </div>
                   </div>
               </div>
@@ -51,10 +51,10 @@ class About extends React.Component
                 <div className="flip-card ">
                   <div className="flip-card-inner ">
                     <div className="flip-card-front">
-                    <h3>varied experience</h3>
+                    <h3>Varied experience</h3>
                     </div>
                     <div className="flip-card-back">
-                      <p>Experience working in industry, startup and research centre, where to next?</p>
+                      <p>Experience working in Industry, Startup and Research Centre, where to next?</p>
                     </div>
                   </div>
               </div>
