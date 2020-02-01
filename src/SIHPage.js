@@ -12,16 +12,23 @@ class Sih extends React.Component
           </h1>
         </center>
           <center><h2>Tools: iOS,Objective-C, Xcode</h2></center><br/>
+          <div id="content">
           <p>Aspire SIH is an iPhone application that is designed to engage the people of Qatar in a self-managed lifelong health program based
           on tracking of steps and input of physical activity by users.
-          <br/>
-          <h3>Role:</h3>
+          <br/><br/>
+          <h3>Features</h3>
+          <ul>
+            <li>Application keeps track of users steps and encourages user to stay fit </li>
+            <li>Ability to log activities</li>
+            <li>Compete with friends and compare metrics such as calories,distance etc. </li>
+          </ul>
+          <h3>Role</h3>
           <ul>
             <li>Developed Dashboard UI of the application </li>
             <li>Integrated formulas for offline calculation</li>
-            <li>Involved in unit testing of the application </li>
           </ul>
           </p>
+          </div>
       </div>
     );
   }

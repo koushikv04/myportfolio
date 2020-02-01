@@ -7,10 +7,19 @@ import Contact from "./Contact";
 
 class Main extends React.Component
 {
+  constructor() {
+    super();
+    this.state = {
+      value: "none"
+    }
+  }
+
+
   render()
   {
+
     return(
-      <div>
+      <div id="portfolioroot">
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand><h1>Kouv</h1></Navbar.Brand>
           <Nav className="justify-content-end">
@@ -29,7 +38,7 @@ class Main extends React.Component
       <div id="About">
       <About/>
       </div>
-      <div id="Projects">
+      <div id="Projects" value={this.state.value}>
       <Projects/>
       </div>
       <div id="Contact">

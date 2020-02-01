@@ -12,20 +12,23 @@ class Umap extends React.Component
           </h1>
         </center>
           <center><h2>Tools: iOS,Objective-C, Xcode</h2></center><br/>
-          <p>An iPad Application provides information on current and upcoming conferences and facilitates delegates to chat, make seat selection and accommodation arrangements.
+          <div id="content">
+          <p>Unified Mobility Platform(UMAP) is an iPad Application to create application wireframes by simple drag and drop of UI components </p>
           <br/>
-          <h3>Role:</h3>
+
+          <h3>What can it do?</h3>
           <ul>
-            <li>Made Enhancements such as:</li>
-            <ul>
-              <li>Added new UI components</li>
-              <li>Encompassed token-server authentication </li>
-              <li>Encompassed token-server authentication </li>
-              <li>Mobile Device Management(MDM)</li>
-            </ul>
-            <li>A complete application paved the way to be bought by one of the leading Network Service Provider  </li>
+            <li>Users can create wireframe of a mobile application by a simple drag and drop of UI components such as button,checkbox,radiobutton etc.</li>
+            <li>Multi screen apps can be created</li>
           </ul>
-          </p>
+          <h3> What did i do ?</h3>
+          <ul>
+            <li>Upgraded the app to include more UI components</li>
+            <li>Intergrated new feature such as Mobile Device Management(MDM) and token server authentication</li>
+            <li>Worked as a team and acted as a mentor for a junior developer</li>
+            <li>Implemented project work following Agile methodology</li>
+          </ul>
+          </div>
       </div>
     );
   }

@@ -12,20 +12,22 @@ class Dm extends React.Component
             </h1>
           </center>
           <center><h2>Tools: iOS,Objective-C, Xcode</h2></center><br/>
-          <p>An iPhone Application developed to help users manage their scheduled medical appointments and insurance companies to keep track of their customer’s health with input from physicians and laboratory results updated in the application.
-          <br/>
-          <h3>Role:</h3>
+          <div id="content">
+          <p>Disease Specific Care Management(DM) is a proof of concept iPhone Application developed to help users manage their scheduled medical appointments and insurance companies to keep track of their customer’s health with input from physicians and laboratory results updated in the application.
+          <br/><br/>
+          <h3>Features</h3>
+          <ul>
+            <li>A one stop solution for insurance companies to suggest their customers of medical services they can avail and have all health records on the application</li>
+            <li>The app can list out the nearby clinics, test centers and can also give directions to the location</li>
+            <li>The app syncs the appointments to the calendar and notify users of upcoming appointments</li>
+          </ul>
+          <h3>Role</h3>
           <ul>
             <li><b>Initiated the idea</b> to develop the application on discussion with the business head in Tech Mahindra </li>
-            <li><b>Spearheaded the entire application</b> starting from design to development of the application and testing.</li>
-            <li>Incorporated features such as:</li>
-            <ul>
-              <li>Synchronise events to iPhone calendar</li>
-              <li>Apple Push Notification Service(APNS)</li>
-              <li>Show routes on map from current location</li>
-            </ul>
+            <li><b>Spearheaded the entire application Single-Handedly</b> from Design to Development of the application.</li>
           </ul>
           </p>
+          </div>
       </div>
     );
   }
