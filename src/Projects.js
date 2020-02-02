@@ -23,7 +23,7 @@ class Projects extends React.Component
       console.log(e.target);
       if(e.target === document.getElementById("contentModal") ) {
         this.setState({display:"None"})
-        document.removeEventListener('mousedown', this.viewClicked);
+        document.getElementById("portfolioroot").removeEventListener('click', this.viewClicked);
       }
 
 
@@ -33,7 +33,7 @@ class Projects extends React.Component
     this.setState({
       display: "block"
     })
-    document.addEventListener('mousedown', this.viewClicked);
+    document.getElementById("portfolioroot").addEventListener('click', this.viewClicked);
 
   }
 
