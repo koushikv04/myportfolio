@@ -46,38 +46,29 @@ class Projects extends React.Component
 
       <div className="row justify-content-center">
         <div className="col-xs-6">
-        <NavLink  to="/vizier"><img alt="viziericon" onClick = {this.showModal}  class="icons" src="viziericon.png"/></NavLink>
-
+          <NavLink  to="/vizier"><img alt="viziericon" onClick = {this.showModal}  class="icons" src="viziericon.png"/></NavLink>
         </div>
         <div className="col-xs-6">
-        <NavLink  to="/Medfit"><img alt="medfiticon" onClick = {this.showModal} class="icons" src="MedfitIcon.png"/></NavLink>
-
+          <NavLink  to="/Medfit"><img alt="medfiticon" onClick = {this.showModal} class="icons" src="MedfitIcon.png"/></NavLink>
         </div>
         <div className="col-xs-6">
-        <NavLink  to="/Cherrypick"><img alt="cherrypickicon" onClick = {this.showModal} class="icons" src="cherrypickicon.png"/></NavLink>
-
+          <NavLink  to="/Cherrypick"><img alt="cherrypickicon" onClick = {this.showModal} class="icons" src="cherrypickicon.png"/></NavLink>
         </div>
         <div className="col-xs-6">
-        <NavLink  to="/Sih"><img alt = "sihicon" onClick = {this.showModal} class="icons" src="sihicon.jpg"/></NavLink>
-
+          <NavLink  to="/Sih"><img alt = "sihicon" onClick = {this.showModal} class="icons" src="sihicon.jpg"/></NavLink>
         </div>
         <div class="w-100"></div>
-
         <div className="col-xs-6">
-        <NavLink  to="/Umap"><img alt="umapicon" onClick = {this.showModal} class="icons" src="UmapIcon.png"/></NavLink>
-
+          <NavLink  to="/Umap"><img alt="umapicon" onClick = {this.showModal} class="icons" src="UmapIcon.png"/></NavLink>
         </div>
         <div className="col-xs-6">
-        <NavLink  to="/Bridge"><img alt = "bridgeicon" onClick = {this.showModal} class="icons" src="BridgeIcon.png"/></NavLink>
-
+          <NavLink  to="/Bridge"><img alt = "bridgeicon" onClick = {this.showModal} class="icons" src="BridgeIcon.png"/></NavLink>
         </div>
         <div className="col-xs-6">
-        <NavLink  to="/Radiotouch"><img  alt="rticon" onClick = {this.showModal}  class="icons" src="RTIcon.png"/></NavLink>
-
+          <NavLink  to="/Dm"><img alt="dmicon" onClick = {this.showModal}  class="icons" src="DMIcon.png"/></NavLink>
         </div>
         <div className="col-xs-6">
-        <NavLink  to="/Dm"><img alt="dmicon" onClick = {this.showModal}  class="icons" src="DMIcon.png"/></NavLink>
-
+          <NavLink  to="/Radiotouch"><img  alt="rticon" onClick = {this.showModal}  class="icons" src="RTIcon.png"/></NavLink>
         </div>
       </div>
 

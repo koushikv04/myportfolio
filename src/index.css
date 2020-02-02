@@ -195,7 +195,9 @@ i
 .sidebar
 {
   display: block;
-  overflow:auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-transform: translateZ(0);
   white-space: nowrap;
   width:100%;
 
@@ -323,6 +325,7 @@ i
   padding:0 30px;
   text-align: left;
   font-size: 1.5vw;
+  -webkit-overflow-scrolling: touch;
 }
 
 #screenshot {
