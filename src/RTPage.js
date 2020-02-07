@@ -40,7 +40,7 @@ class Radiotouch extends React.Component
             <ul>
               <li>The application was well received and showcased to many clients </li>
               <li>The Application was nominated for <b> Mahindra Innovation Awards </b></li>
-              <li>The Application was patented in Australia under the name <b>Cloud Based Versatile Systems for Radiological Images </b> in 2013</li>
+              <li>The Application was patented in Australia under the name:<b>Cloud Based Versatile Systems for Radiological Images </b> in 2013</li>
             </ul>
           </p>
           </div>

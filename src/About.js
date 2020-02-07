@@ -11,10 +11,10 @@ class About extends React.Component
                 <div className="flip-card">
                   <div className="flip-card-inner ">
                     <div className="flip-card-front">
-                      <h2>5 years and counting...</h2>
+                      <h2>6 years and counting...</h2>
                     </div>
                     <div className="flip-card-back">
-                      <p>5+ years Experience as a Software Developer</p>
+                      <p>6+ years Experience as a Software Developer</p>
                     </div>
                   </div>
               </div>

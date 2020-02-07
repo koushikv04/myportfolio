@@ -13,7 +13,7 @@ class Cherrypick extends React.Component
         </center>
           <center><h2>Tools: iOS,Objective-C, Xcode</h2></center><br/>
           <div id = "content">
-          <p>A 360&#176; Digital enterprise colloboration platform which provides single point of contact for customers to create work groups, manage tasks, share messages, documents, notes, create events and much more.
+          <p>A 360&#176; digital enterprise colloboration platform which provides single point of contact for customers to create work groups, manage tasks, share messages, documents, notes, create events and much more.
           <br/><br/>
           <h2><center><b>Features</b></center></h2>
           <div class="row align-items-center">
