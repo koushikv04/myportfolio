@@ -7,7 +7,7 @@ class Medfit extends React.Component
     return(
       <div>
         <center><img alt="Medfit" src="MedfitIcon.png" id="icon"/></center><br/>
-          <center><h2>Tools: Android,Java, Android studio</h2></center><br/>
+          <center><h2>Tools: Android, Java, Android studio, Shimmer Api</h2></center><br/>
           <div id="content">
           <p>MedFit is a mobile health application lending a helping hand to patients suffering from Cardiovascular diseases (CVD) to stay fit by offering exercises, log and track progress, provide feedback and connect with participants and trainers.
           <br/><br/>

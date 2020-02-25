@@ -11,7 +11,7 @@ class Dm extends React.Component
             <h1>Disease Specific Care Management
             </h1>
           </center>
-          <center><h2>Tools: iOS,Objective-C, Xcode</h2></center><br/>
+          <center><h2>Tools: iOS, Objective-C, Xcode, Instruments, SQLite, Mapkit, EKEvent</h2></center><br/>
           <div id="content">
           <p>Disease Specific Care Management(DM) is a proof of concept iPhone Application developed to help users manage their scheduled medical appointments and insurance companies to keep track of their customer’s health with input from physicians and laboratory results updated in the application.
           <br/><br/>

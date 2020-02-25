@@ -11,7 +11,7 @@ class Bridge extends React.Component
           <h1><a href="https://itunes.apple.com/nz/app/bridge-aspire-conference-management/id737471927?mt=8" target="_blank" rel="noopener noreferrer">Bridge - Aspire Conference Management System</a>
           </h1>
         </center>
-          <center><h2>Tools: iOS,Objective-C, Xcode</h2></center><br/>
+          <center><h2>Tools: iOS, Objective-C, Xcode, UIKit, Mapkit, EKEvent, Instruments, Core Data, JSON, Networking</h2></center><br/>
           <div id="content">
           <p>Bridge Conference Management System is an iPad Application facilitates delegates with information about conferences and provide miscellaneous services such as transportation,accomodation etc from the application.
           <br/><br/>

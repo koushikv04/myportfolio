@@ -8,7 +8,7 @@ class Radiotouch extends React.Component
       <div>
         <center><img alt="Radiotouch" src="RTIcon.png" id="icon"/></center><br/>
           <center><h1> Radiotouch </h1></center>
-          <center><h2>Tools: iOS,Objective-C, Xcode</h2></center><br/>
+          <center><h2>Tools: iOS, Objective-C, Xcode, Instruments, UIKit, plist</h2></center><br/>
           <p id="firstapp"><h3>My First App <span role="img">&#x1F600;</span></h3></p>
           <div id="protoimages">
           <img alt="proto1" src="proto1.png" />

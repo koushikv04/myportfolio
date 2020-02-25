@@ -11,7 +11,7 @@ class Umap extends React.Component
           <h1>Unified Mobility Platform
           </h1>
         </center>
-          <center><h2>Tools: iOS,Objective-C, Xcode</h2></center><br/>
+          <center><h2>Tools: iOS, Objective-C, Xcode, UIKit, Instruments, SVN</h2></center><br/>
           <div id="content">
           <p>Unified Mobility Platform(UMAP) is an iPad Application to create application wireframes by simple drag and drop of UI components </p>
           <br/>

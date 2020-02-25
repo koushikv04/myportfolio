@@ -11,7 +11,7 @@ class Sih extends React.Component
           <h1><a href="https://itunes.apple.com/nz/app/step-into-health/id741316085?mt=8" rel="noopener noreferrer" target="_blank">Aspire Step into Health</a>
           </h1>
         </center>
-          <center><h2>Tools: iOS,Objective-C, Xcode</h2></center><br/>
+          <center><h2>Tools: iOS, Objective-C, Xcode, Healthkit, JSON, Networking</h2></center><br/>
           <div id="content">
           <p>Aspire SIH is an iPhone application that is designed to engage the people of Qatar in a self-managed lifelong health program based
           on tracking of steps and input of physical activity by users.

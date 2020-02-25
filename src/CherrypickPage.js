@@ -11,7 +11,7 @@ class Cherrypick extends React.Component
           <h1><a href="https://en.wikiredia.com/wiki/User:Cherrypickbox/sandbox" target="_blank" rel="noopener noreferrer">Cherrypickbox</a>
           </h1>
         </center>
-          <center><h2>Tools: iOS,Objective-C, Xcode</h2></center><br/>
+          <center><h2>Tools: iOS, Objective-C, Xcode, EKEvent, UIKit, JSON, REST, Networking</h2></center><br/>
           <div id = "content">
           <p>A 360&#176; digital enterprise colloboration platform which provides single point of contact for customers to create work groups, manage tasks, share messages, documents, notes, create events and much more.
           <br/><br/>
