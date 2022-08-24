@@ -7,6 +7,7 @@ import Dm from "./DMPage"
 import Bridge from "./BridgePage"
 import Sih from "./SIHPage"
 import Umap from "./UmapPage"
+import Sweepr from  "./SweeprPage"
 
 import {Route,NavLink,HashRouter} from 'react-router-dom';
 
@@ -45,6 +46,9 @@ class Projects extends React.Component
 
 
       <div className="row justify-content-center">
+      <div className="col-xs-6">
+          <NavLink  to="/Sweepr"><img alt="sweeprlogo" onClick = {this.showModal}  class="icons" src="sweeprlogo.png"/></NavLink>
+        </div>
         <div className="col-xs-6">
           <NavLink  to="/vizier"><img alt="viziericon" onClick = {this.showModal}  class="icons" src="viziericon.png"/></NavLink>
         </div>
@@ -74,6 +78,7 @@ class Projects extends React.Component
 
       <div id="contentModal" className="modal" style = {{display:this.state.display}}>
         <div className="modal-content" >
+          <Route path="/Sweepr" component={Sweepr}/>
           <Route path="/vizier" component={Vizier}/>
           <Route path="/Medfit" component={Medfit}/>
           <Route path="/Cherrypick" component={Cherrypick}/>
