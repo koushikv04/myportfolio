@@ -20,30 +20,12 @@ class Main extends React.Component
 
     return(
       <div id="portfolioroot">
-      <Navbar bg="dark" variant="dark">
-        <Navbar.Brand><h1>Kouv</h1></Navbar.Brand>
-          <Nav className="justify-content-end">
-            <Nav.Link href="#About">About</Nav.Link>
-            <Nav.Link href="#Projects">Projects</Nav.Link>
-            <Nav.Link href="#Contact">Contact</Nav.Link>
-          </Nav>
-      </Navbar>
-      <div id="main">
-        <div class="bg-text">
-          <img alt="myphoto" id="photo" src="Kouv.jpg"/>
-          <h1>Hello, I am Kouv</h1>
-          <h3>Kaushik Venkataraman, the Software Developer</h3>
+         <div class="profile">
+          <center><img src="kvlogo2.png" alt="profile_picture"/></center>
         </div>
-      </div>
-      <div id="About">
-      <About/>
-      </div>
-      <div id="Projects" value={this.state.value}>
-      <Projects/>
-      </div>
-      <div id="Contact">
-      <Contact/>
-      </div>
+        <p id="soonText"><center>Coming soon</center></p>
+        <p id="resumedesc"><center>Until then, please refer or contact me through my linkedin profile, thank you</center>  </p>
+        <a href="https://www.linkedin.com/in/kaushikvenkataraman" target="_blank" rel="noopener noreferrer"><center> <i id="contactsicons" class='fa fa-linkedin-square'/></center></a>
       </div>
     );
   }
