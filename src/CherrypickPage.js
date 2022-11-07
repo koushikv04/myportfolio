@@ -1,11 +1,14 @@
 import React from 'react';
+import CloseButton from 'react-bootstrap/CloseButton';
 
 class Cherrypick extends React.Component
 {
   render()
   {
     return(
-      <div>
+      <div class = "container-fluid">
+        <CloseButton onClick={this.props.viewClicked} class="closeBtn"/>
+
         <center><img alt="cherrypick" src="cherrypickicon.png" id="icon"/></center><br/>
         <center>
           <h1><a href="https://en.wikiredia.com/wiki/User:Cherrypickbox/sandbox" target="_blank" rel="noopener noreferrer">Cherrypickbox</a>

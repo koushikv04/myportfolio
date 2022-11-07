@@ -5,62 +5,18 @@ class About extends React.Component
   render()
   {
     return(
-        <div id="aboutcontainer">
-          <div className="row justify-content-center">
-            <div className="col-xs-6">
-                <div className="flip-card">
-                  <div className="flip-card-inner ">
-                    <div className="flip-card-front">
-                      <h2>6 years and counting...</h2>
-                    </div>
-                    <div className="flip-card-back">
-                      <p>6+ years Experience as a Software Developer</p>
-                    </div>
-                  </div>
-              </div>
+        <div class="container" id="aboutcontainer">
+          <div class="row align-items-center p-5" id="aboutrow">
+            <div class = "col text-left">
+            <h1 class="display-4"> வணக்கம்! Hello! &#128075; Hola! Dia Dhuit! <br/></h1>
+              <p id="aboutinfo">I am a Software Developer, Mobile Developer, iOS developer and many more &#127913; to come.
+              I like developing solutions, be it in Mobile, Web or Raspberry Pi. I’ve been part of many interesting projects which you can check it out in the <a href="#Projects">projects</a> section and I am sure there’s lots more to come. I’ve operated and gained knowledge in these areas  &#128073; <br/> And I am not shy to explore more &#128640;. I have worked with some of the  best people &#128131;&#128378; and best team &#129309;&#128588;. I am currently employed in Sweepr technologies. I look forward to working with eager young minds of tomorrow and a product that would stun &#129321; the world &#127757;. So, Go on, explore me and if you like anything you see, contact me &#128718;, Lets go… <span class = "flip_H">&#127950;</span></p>
             </div>
-            <div className="col-xs-6">
-                <div className="flip-card ">
-                  <div className="flip-card-inner ">
-                    <div className="flip-card-front">
-                    <h2>Mobile,Web and More...</h2>
-                    </div>
-                    <div className="flip-card-back">
-                      <p>Developed variety of Mobile, Web and Software applications from Healthcare to Enterprise </p>
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div class="w-100"></div>
-
-            <div className="col-xs-6">
-                <div className="flip-card ">
-                  <div className="flip-card-inner ">
-                    <div className="flip-card-front">
-                    <h2>Exploring</h2>
-                    <i class='fa fa-rocket' id="rocketicon"></i>
-
-                    </div>
-                    <div className="flip-card-back">
-                      <p>Explored new fields such as Iot,3D-printing,Machine learning</p>
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div className="col-xs-6">
-                <div className="flip-card ">
-                  <div className="flip-card-inner ">
-                    <div className="flip-card-front">
-                    <h3>Varied experience</h3>
-                    </div>
-                    <div className="flip-card-back">
-                      <p>Experience working in Industry, Startup and Research Centre, where to next?</p>
-                    </div>
-                  </div>
-              </div>
+            <div class = "col text-center">
+              <img id = "keywordcloud" src="keyword_cloud.png" alt="keyword_cloud"/>
             </div>
           </div>
-
+         
         </div>
     );
   }

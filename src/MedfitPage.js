@@ -1,4 +1,5 @@
 import React from 'react';
+import CloseButton from 'react-bootstrap/CloseButton';
 
 class Medfit extends React.Component
 {
@@ -6,13 +7,15 @@ class Medfit extends React.Component
   {
     return(
       <div>
+        <CloseButton onClick={this.props.viewClicked} class="closeBtn"/>
+
         <center><img alt="Medfit" src="MedfitIcon.png" id="icon"/></center><br/>
           <center><h2>Tools: Android, Java, Android studio, Shimmer Api</h2></center><br/>
           <div id="content">
           <p>MedFit is a mobile health application lending a helping hand to patients suffering from Cardiovascular diseases (CVD) to stay fit by offering exercises, log and track progress, provide feedback and connect with participants and trainers.
           <br/><br/>
           <h3><center>Features</center></h3>
-          <div className="sidebar">
+          <div className="screenshots">
               <img id="screenshot2" alt="medfit1" src="medfit1.png" />
               <img id="screenshot2" alt="medfit2" src="medfit2.png" />
               <img id="screenshot2" alt="medfit3" src="medfit3.png" />

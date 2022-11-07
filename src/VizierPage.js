@@ -1,11 +1,13 @@
 import React from 'react';
+import CloseButton from 'react-bootstrap/CloseButton';
 
 class Vizier extends React.Component
 {
   render()
   {
     return(
-      <div>
+      <div class = "container-fluid">
+         <CloseButton onClick={this.props.viewClicked} class="closeBtn"/>
         <center><img alt="vizierprototype"src="vizierprototype.gif" id="vizierprototype"/></center><br/>
         <center><a href="https://aalvizier.eu/"><img alt="vizierlogo" src="vizierlogo.png" id="vizi"/><i class="fa fa-external-link"/>
 </a></center><br/>
