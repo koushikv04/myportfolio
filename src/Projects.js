@@ -10,8 +10,6 @@ import Umap from "./UmapPage"
 import Sweepr from  "./SweeprPage"
 import {Route,NavLink,HashRouter} from 'react-router-dom';
 
-import { Outlet, Link } from "react-router-dom";
-
 class Projects extends React.Component
 {
 

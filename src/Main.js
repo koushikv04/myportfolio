@@ -1,7 +1,6 @@
 import React from 'react';
 import About from "./About";
 import Projects from "./Projects";
-import Timeline from "./Timeline";
 
 class Main extends React.Component
 {
