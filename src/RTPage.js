@@ -1,4 +1,5 @@
 import React from 'react';
+import CloseButton from 'react-bootstrap/CloseButton';
 
 class Radiotouch extends React.Component
 {
@@ -6,6 +7,7 @@ class Radiotouch extends React.Component
   {
     return(
       <div>
+        <CloseButton onClick={this.props.viewClicked} class="closeBtn"/>
         <center><img alt="Radiotouch" src="RTIcon.png" id="icon"/></center><br/>
           <center><h1> Radiotouch </h1></center>
           <center><h2>Tools: iOS, Objective-C, Xcode, Instruments, UIKit, plist</h2></center><br/>

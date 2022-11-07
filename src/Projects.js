@@ -8,8 +8,9 @@ import Bridge from "./BridgePage"
 import Sih from "./SIHPage"
 import Umap from "./UmapPage"
 import Sweepr from  "./SweeprPage"
-
 import {Route,NavLink,HashRouter} from 'react-router-dom';
+
+import { Outlet, Link } from "react-router-dom";
 
 class Projects extends React.Component
 {
@@ -21,12 +22,7 @@ class Projects extends React.Component
     }
   }
   viewClicked=(e)=> {
-      console.log(e.target);
-      if(e.target === document.getElementById("contentModal") ) {
         this.setState({display:"None"})
-        document.getElementById("portfolioroot").removeEventListener('click', this.viewClicked);
-      }
-
 
     }
 
@@ -34,64 +30,75 @@ class Projects extends React.Component
     this.setState({
       display: "block"
     })
-    document.getElementById("portfolioroot").addEventListener('click', this.viewClicked);
 
   }
 
   render()
   {
     return(
-      <div id="mainout" >
-      // <HashRouter>
-
-
-      <div className="row justify-content-center">
-      <div className="col-xs-6">
-          <NavLink  to="/Sweepr"><img alt="sweeprlogo" onClick = {this.showModal}  class="icons" src="sweeprlogo.png"/></NavLink>
+        <HashRouter>
+          <div class="row justify-content-center p-5" id="projectsrow">
+          <div class=".col-xs-2">
+            <NavLink  to="/Sweepr">
+              <img alt="sweeprlogo" onClick = {this.showModal}  class="icons" src="sweeprlogo.png"/>
+            </NavLink>
+          </div>
+          <div class=".col-xs-2">
+            <NavLink  to="/vizier">
+              <img alt="viziericon" onClick = {this.showModal}  class="icons" src="viziericon.png"/>
+            </NavLink>
+          </div>
+          <div class=".col-xs-2">
+            <NavLink  to="/Medfit">
+              <img alt="medfiticon" onClick = {this.showModal} class="icons" src="MedfitIcon.png"/>
+            </NavLink>
+          </div>
+          <div class=".col-xs-2">
+            <NavLink  to="/Cherrypick">
+              <img alt="cherrypickicon" onClick = {this.showModal} class="icons" src="cherrypickicon.png"/>
+            </NavLink>
+          </div>
+          <div class=".col-xs-2">
+            <NavLink  to="/Sih">
+              <img alt = "sihicon" onClick = {this.showModal} class="icons" src="sihicon.jpg"/>
+            </NavLink>
+          </div>
+          <div class="w-100"></div>
+          <div class=".col-xs-3">
+            <NavLink  to="/Umap">
+              <img alt="umapicon" onClick = {this.showModal} class="icons" src="UmapIcon.png"/>
+            </NavLink>
+          </div>
+          <div class=".col-xs-3">
+            <NavLink  to="/Bridge">
+              <img alt = "bridgeicon" onClick = {this.showModal} class="icons" src="BridgeIcon.png"/>
+            </NavLink>
+          </div>
+          <div class=".col-xs-3">
+            <NavLink  to="/Dm">
+              <img alt="dmicon" onClick = {this.showModal}  class="icons" src="DMIcon.png"/>
+            </NavLink>
+          </div>
+          <div class=".col-xs-3">
+            <NavLink  to="/Radiotouch">
+              <img  alt="rticon" onClick = {this.showModal}  class="icons" src="RTIcon.png"/>
+            </NavLink>
+          </div>
         </div>
-        <div className="col-xs-6">
-          <NavLink  to="/vizier"><img alt="viziericon" onClick = {this.showModal}  class="icons" src="viziericon.png"/></NavLink>
+        <div id="contentModal" class="modal" style = {{display:this.state.display}}>
+          <div class="modal-content" >
+            <Route path="/Sweepr"> <Sweepr viewClicked={this.viewClicked}/> </Route>
+            <Route path="/vizier"><Vizier viewClicked={this.viewClicked}/> </Route>
+            <Route path="/Medfit"> <Medfit viewClicked={this.viewClicked}/> </Route>
+            <Route path="/Cherrypick"><Cherrypick viewClicked={this.viewClicked}/> </Route>
+            <Route path="/Sih"> <Sih viewClicked={this.viewClicked}/> </Route>
+            <Route path="/Bridge"> <Bridge viewClicked={this.viewClicked}/> </Route>
+            <Route path="/Umap"> <Umap viewClicked={this.viewClicked}/> </Route>
+            <Route path="/Dm"> <Dm viewClicked={this.viewClicked}/> </Route>
+            <Route path="/Radiotouch"> <Radiotouch viewClicked={this.viewClicked}/> </Route>
+          </div>
         </div>
-        <div className="col-xs-6">
-          <NavLink  to="/Medfit"><img alt="medfiticon" onClick = {this.showModal} class="icons" src="MedfitIcon.png"/></NavLink>
-        </div>
-        <div className="col-xs-6">
-          <NavLink  to="/Cherrypick"><img alt="cherrypickicon" onClick = {this.showModal} class="icons" src="cherrypickicon.png"/></NavLink>
-        </div>
-        <div className="col-xs-6">
-          <NavLink  to="/Sih"><img alt = "sihicon" onClick = {this.showModal} class="icons" src="sihicon.jpg"/></NavLink>
-        </div>
-        <div class="w-100"></div>
-        <div className="col-xs-6">
-          <NavLink  to="/Umap"><img alt="umapicon" onClick = {this.showModal} class="icons" src="UmapIcon.png"/></NavLink>
-        </div>
-        <div className="col-xs-6">
-          <NavLink  to="/Bridge"><img alt = "bridgeicon" onClick = {this.showModal} class="icons" src="BridgeIcon.png"/></NavLink>
-        </div>
-        <div className="col-xs-6">
-          <NavLink  to="/Dm"><img alt="dmicon" onClick = {this.showModal}  class="icons" src="DMIcon.png"/></NavLink>
-        </div>
-        <div className="col-xs-6">
-          <NavLink  to="/Radiotouch"><img  alt="rticon" onClick = {this.showModal}  class="icons" src="RTIcon.png"/></NavLink>
-        </div>
-      </div>
-
-      <div id="contentModal" className="modal" style = {{display:this.state.display}}>
-        <div className="modal-content" >
-          <Route path="/Sweepr" component={Sweepr}/>
-          <Route path="/vizier" component={Vizier}/>
-          <Route path="/Medfit" component={Medfit}/>
-          <Route path="/Cherrypick" component={Cherrypick}/>
-          <Route path="/Sih" component={Sih}/>
-          <Route path="/Bridge" component={Bridge}/>
-          <Route path="/Umap" component={Umap}/>
-          <Route path="/Dm" component={Dm}/>
-          <Route path="/Radiotouch" component={Radiotouch}/>
-        </div>
-      </div>
       </HashRouter>
-
-      </div>
 
     );
   }

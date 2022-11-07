@@ -1,4 +1,5 @@
 import React from 'react';
+import CloseButton from 'react-bootstrap/CloseButton';
 
 class Bridge extends React.Component
 {
@@ -6,6 +7,7 @@ class Bridge extends React.Component
   {
     return(
       <div>
+        <CloseButton onClick={this.props.viewClicked} class="closeBtn"/>
         <center><img alt="Bridge" src="BridgeIcon.png" id="icon"/></center><br/>
         <center>
           <h1><a href="https://itunes.apple.com/nz/app/bridge-aspire-conference-management/id737471927?mt=8" target="_blank" rel="noopener noreferrer">Bridge - Aspire Conference Management System</a>

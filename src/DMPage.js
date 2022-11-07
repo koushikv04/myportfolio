@@ -1,4 +1,5 @@
 import React from 'react';
+import CloseButton from 'react-bootstrap/CloseButton';
 
 class Dm extends React.Component
 {
@@ -6,6 +7,7 @@ class Dm extends React.Component
   {
     return(
       <div>
+        <CloseButton onClick={this.props.viewClicked} class="closeBtn"/>
         <center><img alt="DM" src="DMIcon.png" id="icon"/></center><br/>
           <center>
             <h1>Disease Specific Care Management

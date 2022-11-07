@@ -1,4 +1,5 @@
 import React from 'react';
+import CloseButton from 'react-bootstrap/CloseButton';
 
 class Sih extends React.Component
 {
@@ -6,6 +7,7 @@ class Sih extends React.Component
   {
     return(
       <div>
+       <CloseButton onClick={this.props.viewClicked} class="closeBtn"/>
         <center><img alt="step into health" src="sihicon.jpg" id="icon"/></center><br/>
         <center>
           <h1><a href="https://itunes.apple.com/nz/app/step-into-health/id741316085?mt=8" rel="noopener noreferrer" target="_blank">Aspire Step into Health</a>
