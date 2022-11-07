@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Main from "./Main";
 import "./index.css"
-import '@fortawesome/fontawesome-free/css/all.min.css';
 
 ReactDOM.render(
   <Main/>,
