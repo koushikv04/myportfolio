@@ -86,7 +86,7 @@ class Main extends React.Component
             </div>
             <div class="col text-center">
               <a href="https://www.linkedin.com/in/kaushikvenkataraman" target="_blank" rel="noopener noreferrer">
-                <i id="contactsicons" class='fa-brands fa-linkedin fa-3x'/>
+                <i id="contactsicons" class='fa fa-linkedin-square fa-3x'/>
               </a>
             </div>
             </div>
