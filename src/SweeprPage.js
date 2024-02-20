@@ -14,7 +14,7 @@ class Sweepr extends React.Component
            
          
           <h1>Sweepr</h1>
-          <center><h2>Tools: iOS, Swift, Xcode, UIKit, Cocoapods, Alamofire, Google Analytics, Fastlane</h2></center><br/>
+          <center><h2>Tools: iOS, Swift, Objective-C, XCode, UIKit, XCTest, CocoaPods, Alamofire, Google Analytics, Fastlane, Bash Automation, GitHub, Jenkins, HomeKit, Java, HTML/CSS/JavaScript, React,Android,  </h2></center><br/>
           <div id="content">
             <p>Sweepr is a simplified customer care solution helping customers to self-diagnose and fix issues at the ease of their homes without the hassle of waiting for customer care. </p>
             <br/>
