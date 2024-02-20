@@ -333,9 +333,9 @@ body.active .wrapper .section{
   left: 10%;
   overflow:auto;
   border:1px solid #888;
-  height:600px;
+  height:450px;
   border-radius: 2em;
-  width:80%;
+  width:84%;
   min-width: 800px;
 }
 
