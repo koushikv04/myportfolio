@@ -19,11 +19,17 @@ class Sweepr extends React.Component
             <p>Sweepr is a simplified customer care solution helping customers to self-diagnose and fix issues at the ease of their homes without the hassle of waiting for customer care. </p>
             <br/>
             <h3> Role</h3>
-             <ul>
-              <li>Developed and maintained core Sweepr SDK on cocoapods</li>
-              <li>Responsible in developing and delivering custom client apps integrating SDK </li>
-              <li>Responsible in developing the POC and transitioning of solutions from react native to HTML</li>
-             <li>Our clients included Virgnia Media, T-Mobile, Telus</li>
+            <ul>
+             <li>Sole responsibility for handling iOS app development in Sweepr</li>
+              <li>Develop, Maintain and Release core iOS Sweepr SDK on CocoaPods</li>
+              <li>Responsible for Submitting, Managing and Monitoring iOS apps integrated with SDK on the App Store</li>
+              <li>Work closely with the Backend and QA team in developing intuitive user experience and delivering quality apps</li>
+              <li>Develop automated testing using XCTest and Ensure to maintain code coverage of the project</li>
+              <li>Responsible for Releasing, Updating and Maintaining code on GitHub version control</li>
+              <li>Responsible for Writing and Maintaining feature documentation and SDK guide</li>
+              <li>Brainstorm and come up with new features working along with team members</li>
+              <li>Responsible to perform research and integrating third-party SDK such as HomeKit etc. into the core SDK</li>
+              <li>Work in Agile environment; Collaborate with team members in  planning and releasing new features in the sprint</li>
             </ul>
           </div>
       </div>
