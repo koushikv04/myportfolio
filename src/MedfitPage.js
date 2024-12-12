@@ -37,8 +37,13 @@ class Medfit extends React.Component
           </ul>
           <h3><center>Role</center></h3>
           <ul>
-            <li><b>Single-handedly</b> developed the second version of the application </li>
+          <li><b>Single-handedly</b> developed the second version of the application </li>
+            <li>Sole developer responsible for Development, Maintenance and Release of the Android application</li>
+            <li>Worked closely with the backend team to make frequent changes and quick release of the apps</li>
             <li>Integrated Shimmer(R) API to capture and transmit data while performing exercises</li>
+            <li>Worked with researchers in releasing apps to users and tracking their usage</li>
+            <li>Responsible for gathering usage info of the app and reporting to the team</li>
+            <li>Responsible for preparing app guide and updating project documentation </li>
             <li>Contributed to two research papers and papers were accepted in <b><a href="http://doras.dcu.ie/21910/" target="_blank" rel="noopener noreferrer">MMHealth workshop</a></b> and <b><a href="http://doras.dcu.ie/22042/" target="_blank" rel="noopener noreferrer">MobiHealth conference</a></b></li>
           </ul>
           </p>

@@ -53,8 +53,8 @@ class Cherrypick extends React.Component
           <br/>
           <h3>Role</h3>
           <ul>
-            <li><b>Single-handedly</b> developed the second version of the application from scratch  </li>
-            <li>Reconstructed the entire UI of the application to development standards</li>
+            <li><b>Sole Developer</b>responsible for Development, Maintenance and Release of Cherrypickbox app</li>
+            <li><b>Single-handedly</b> reconstructed the entire UI of the application to development standards  </li>
             <li>Updated the application to include all features from website such as :
             <ul>
             <li>Post Messages, Documents and Events</li>
@@ -62,6 +62,7 @@ class Cherrypick extends React.Component
             <li>Manage forms</li>
             <li>Create and Manage boxes</li>
             </ul>
+            <li>Worked closely with the backend team which involved frequent change of features and quick release of apps to the App Store</li>
             </li>
           </ul>
           </p>
