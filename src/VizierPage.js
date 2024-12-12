@@ -11,7 +11,7 @@ class Vizier extends React.Component
         <center><img alt="vizierprototype"src="vizierprototype.gif" id="vizierprototype"/></center><br/>
         <center><a href="https://aalvizier.eu/"><img alt="vizierlogo" src="vizierlogo.png" id="vizi"/><i class="fa fa-external-link"/>
 </a></center><br/>
-<center><h2>Tools: RaspberryPi, JavaScript, Python, NodeJS, MongoDB, Swagger, Linux, Docker, IoT</h2></center><br/>
+<center><h2>Tools: RaspberryPi, JavaScript, Python, NodeJS, MongoDB, Swagger, Linux, Docker, IoT, Home Assistant, Matrix Voice, 3D Printing, Z-Wave Home sensors</h2></center><br/>
           <div id="content">
           <p>Vizier is a smart home IoT-based system designed to help the elderly to lead an active social, mental and physical life.
           <br/><br/>
@@ -29,7 +29,7 @@ class Vizier extends React.Component
             <li> Developed the second version of the system from scratch</li>
             <li>Performed the research and development of the speech recognition system using Raspberry Pi and Matrix Voice </li>
             <li>Developed the smart home platform integrating Z-Wave home sensors</li>
-            <li>Worked on fabricating and 3D printing the box housing matrix voice </li>
+            <li>Worked on fabricating and 3D printing the box housing Matrix Voice </li>
             <li>Developed and maintained the back-end system, including API development, Database Management, etc.</li>
             <li>Responsible for writing and maintaining documentation of the project</li>
             <li> Responsible for the presentation of the system on behalf of DCU</li>
